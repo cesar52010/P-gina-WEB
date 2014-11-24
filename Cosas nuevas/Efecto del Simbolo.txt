@@ -1,0 +1,47 @@
+.post-body img { /* Aqui le damos la orden de que solo se aplique en las entradas*/
+-webkit-filter: grayscale(100%);  /* Efecto Blanco y negro*/
+border-radius: 2px;  /* Pequeño borde en las imagenes*/
+-webkit-transition: all 0.5s ease;  /* Efecto suavizado para diferentes navegadores*/
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;  /* Fin del Efecto suavizado para diferentes navegadores*/
+}
+
+
+
+
+  /* Efectos al pasar el cursor sobre la imagen*/
+
+.post-body img:hover {   /* Da la orden que se aplique al pasar el cursor dentro de las imagenes de las entradas*/
+ border-radius: 100%;   /* Nos hace la imagen en circulo*/
+ -webkit-filter: grayscale(0%);   /* Quita el efecto Blanco y Negro*/ 
+-webkit-transform: rotate(360deg);   /* Giro que da antes de transformase en circulo para varios navegadores*/
+-moz-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);   /* Fin del Giro para diferentes navegadores*/
+}
+
+
+
+
+
+img {
+-webkit-filter: grayscale(100%);
+border-radius: 1px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+img:hover {
+ border-radius: 30%;
+ -webkit-filter: grayscale(0%);
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
